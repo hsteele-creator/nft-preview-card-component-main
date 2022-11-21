@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+#nft-container {
+    width: 80%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#image-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#author {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+#author img {
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#author p {
+    font-size: 0.8rem;
+}
